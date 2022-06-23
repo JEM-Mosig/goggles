@@ -32,6 +32,7 @@ $boost=1,site=bsr.de
 $boost=3,site=www.jstor.org
 $boost=3,site=www.nist.gov
 $boost=2,site=nsidc.org
+$boost=3,site=mathworld.wolfram.com
 
 ! Boost general prediction market sites
 $boost=3,site=www.metaculus.com
