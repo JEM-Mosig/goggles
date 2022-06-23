@@ -1,5 +1,5 @@
 ! name: Curated data sources and prediction markets
-! description: Search Wikipedia, prediction markets, Wolfram Alpha, and similar
+! description: Search Wikipedia, prediction markets, stackexchange, statista, and similar
 ! public: false
 ! author: jem-mosig
 ! avatar: #FFC300
@@ -18,6 +18,16 @@ $boost=3,site=www.wolframalpha.com
 $boost=3,site=ourworldindata.org
 $boost=3,site=www.destatis.de
 $boost=3,site=www.statista.com
+
+! Boost technical online forums with robust voting systems
+*.stackexchange.com/$boost=2
+
+! Boost scholary databases
+$boost=2,site=scholar.google.com
+$boost=2,site=arxiv.org
+
+! Boost other databases
+$boost=1,site=bsr.de
 
 ! Boost general prediction market sites
 $boost=2,site=www.metaculus.com
