@@ -22,15 +22,15 @@ $boost=3,site=www.statista.com
 ! Boost technical online forums with robust voting systems
 *.stackexchange.com/$boost=2
 
-! Boost scholary databases
-$boost=2,site=scholar.google.com
-$boost=2,site=arxiv.org
+! Boost scholary databases (weak boost since number of results can be large)
+$boost=1,site=scholar.google.com
+$boost=1,site=arxiv.org
 
 ! Boost other databases
-$boost=1,site=www.imdb.com
+$boost=2,site=www.imdb.com
 $boost=1,site=bsr.de
-$boost=1,site=www.jstor.org
-$boost=1,site=www.nist.gov
+$boost=2,site=www.jstor.org
+$boost=2,site=www.nist.gov
 
 ! Boost general prediction market sites
 $boost=2,site=www.metaculus.com
