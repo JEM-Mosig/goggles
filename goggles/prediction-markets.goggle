@@ -4,8 +4,8 @@
 ! author: jem-mosig
 ! avatar: #33DAFF
 
-! Remove results not matching any other rule
-$discard
+! (Don't) remove results not matching any other rule
+! $discard
 
 ! Boost general prediction market sites
 $boost=3,site=www.metaculus.com
