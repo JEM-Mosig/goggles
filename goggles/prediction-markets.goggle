@@ -15,3 +15,6 @@ $boost=3,site=manifold.markets
 ! Boost US-Election focused prediction markets a bit less
 $boost=2,site=www.predictit.org
 $boost=2,site=iemweb.biz.uiowa.edu
+
+! Downrank everything else
+$downrank=3
