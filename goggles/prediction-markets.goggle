@@ -4,8 +4,8 @@
 ! author: jem-mosig
 ! avatar: #33DAFF
 
-! (Don't) remove results not matching any other rule
-! $discard
+! Remove results not matching any other rule
+$discard
 
 ! Boost general prediction market sites
 $boost=3,site=www.metaculus.com
@@ -15,6 +15,3 @@ $boost=3,site=manifold.markets
 ! Boost US-Election focused prediction markets a bit less
 $boost=2,site=www.predictit.org
 $boost=2,site=iemweb.biz.uiowa.edu
-
-! Downrank everything else
-$downrank=3
