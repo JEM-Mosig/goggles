@@ -7,7 +7,11 @@
 ! Remove results not matching any other rule
 $discard
 
-! Boost prediction market sites
+! Boost general prediction market sites
 $boost=3,site=www.metaculus.com
-$boost=3,site=www.predictit.org
 $boost=3,site=manifold.markets
+/questions/$boost=3,site=www.gjopen.com
+
+! Boost US-Election focused prediction markets a bit less
+$boost=2,site=www.predictit.org
+$boost=2,site=iemweb.biz.uiowa.edu
