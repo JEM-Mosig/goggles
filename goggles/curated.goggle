@@ -36,7 +36,7 @@ $boost=1,site=nsidc.org
 ! Boost general prediction market sites
 $boost=2,site=www.metaculus.com
 $boost=2,site=manifold.markets
-/questions/$boost=3,site=www.gjopen.com
+/questions/$boost=2,site=www.gjopen.com
 
 ! Boost US-Election focused prediction markets a bit less
 $boost=1,site=www.predictit.org
