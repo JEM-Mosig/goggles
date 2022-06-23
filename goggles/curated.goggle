@@ -1,0 +1,29 @@
+! name: Curated data sources and prediction markets
+! description: Search Wikipedia, prediction markets, Wolfram Alpha, and similar
+! public: false
+! author: jem-mosig
+! avatar: #FFC300
+
+! Remove results not matching any other rule
+$discard
+
+! Boost Wikipedia
+$boost=3,site=en.wikipedia.org
+$boost=3,site=de.wikipedia.org
+
+! Boost Wolfram Alpha
+$boost=3,site=www.wolframalpha.com
+
+! Boost statistics sites
+$boost=3,site=ourworldindata.org
+$boost=3,site=www.destatis.de
+$boost=3,site=www.statista.com
+
+! Boost general prediction market sites
+$boost=2,site=www.metaculus.com
+$boost=2,site=manifold.markets
+/questions/$boost=3,site=www.gjopen.com
+
+! Boost US-Election focused prediction markets a bit less
+$boost=1,site=www.predictit.org
+$boost=1,site=iemweb.biz.uiowa.edu
