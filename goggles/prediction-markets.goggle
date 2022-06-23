@@ -1,0 +1,13 @@
+! name: Prediction markets
+! description: Search various prediction markets
+! public: false
+! author: jem-mosig
+! avatar: #33DAFF
+
+! Remove results not matching any other rule
+$discard
+
+! Boost prediction market sites
+$boost=3,site=www.metaculus.com
+$boost=3,site=www.predictit.org
+$boost=3,site=manifold.markets
